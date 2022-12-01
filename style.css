@@ -2,3 +2,59 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+.Heading{
+  background-color: #f9eee1;
+  text-align: center;
+  font-family: "Space Mono";
+  font-size: 48px;
+  border: double;
+  border-color: #ad9576;
+  border-width: 10px;
+  margin: 60px 450px;
+}
+
+.text {
+  font-family: "Special Elite";
+  font-size: 25px;
+  margin-right: 600px;
+  padding: 0px 20px;
+}
+.quote{
+  background-color: #ad9576;
+  font-family: "Special Elite";
+  border-radius: 20px;
+  text-align: center;
+  font-size: 40px;
+  margin: 60px 300px;
+  padding: 40px 15px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#c1a98a;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 32px;
+  font-family: "Space Mono";
+}
+
+li a:hover:not(.active) {
+  background-color: #bf825a;
+}
+
+.active {
+  background-color: #593418;
+}
